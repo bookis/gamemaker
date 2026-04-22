@@ -1,0 +1,23 @@
+{
+  "name": "gamemaker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "VITE_API_URL=https://bookis.apps.popdb.ai/api/admin/apps/19d77f16-f954-4fc1-b6eb-c1fd0d242595/rest VITE_ENVIRONMENT=staging vite",
+    "build:staging": "VITE_API_URL=https://bookis.apps.popdb.ai/api/admin/apps/19d77f16-f954-4fc1-b6eb-c1fd0d242595/rest VITE_ENVIRONMENT=staging vite build",
+    "build:production": "VITE_API_URL=https://bookis.apps.popdb.ai/api/admin/apps/19d77f16-f954-4fc1-b6eb-c1fd0d242595/rest VITE_ENVIRONMENT=production vite build"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3"
+  }
+}
